@@ -1,11 +1,40 @@
 {
-  "name": "react-native-android-wifi",
-  "version": "0.0.41",
-  "description": "A react-native implementation for viewing and connecting to Wifi networks on Android devices.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "react-native-android-wifi@0.0.41",
+  "_id": "react-native-android-wifi@0.0.41",
+  "_inBundle": false,
+  "_integrity": "sha512-hbyUwSui4TANpzCO2J1v3wmXiYK6xLgBhB8EpGjIvOd47RNhsBV9makiYVEkM5xeyKRnDHbwZaD6Ju4sFLrqMA==",
+  "_location": "/react-native-android-wifi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-android-wifi@0.0.41",
+    "name": "react-native-android-wifi",
+    "escapedName": "react-native-android-wifi",
+    "rawSpec": "0.0.41",
+    "saveSpec": null,
+    "fetchSpec": "0.0.41"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-android-wifi/-/react-native-android-wifi-0.0.41.tgz",
+  "_shasum": "29f5f558a57f53768899c6c0cea8ac87171ce731",
+  "_spec": "react-native-android-wifi@0.0.41",
+  "_where": "D:\\MobileDCA",
+  "author": {
+    "name": "Ferran Reventos",
+    "email": "devstepbcn@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/devstepbcn/react-native-android-wifi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A react-native implementation for viewing and connecting to Wifi networks on Android devices.",
+  "homepage": "https://github.com/devstepbcn/react-native-android-wifi#readme",
   "keywords": [
     "react",
     "react-component",
@@ -14,18 +43,23 @@
     "wifi",
     "connection"
   ],
-  "author": "Ferran Reventos <devstepbcn@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/devstepbcn/react-native-android-wifi",
-  "bugs": "https://github.com/devstepbcn/react-native-android-wifi/issues",
+  "main": "index.js",
+  "name": "react-native-android-wifi",
   "peerDependencies": {
     "react-native": ">=0.13"
   },
-  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devstepbcn/react-native-android-wifi.git"
+  },
   "rnpm": {
     "android": {
       "packageInstance": "new AndroidWifiPackage()"
     }
-  }
-
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.41"
 }
